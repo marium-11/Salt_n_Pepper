@@ -1,13 +1,150 @@
+
 .header{
     background-color: black;
    display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:0 10px;
+    padding:0px 50px 0 50px;
 
 
 }
 .logo img{
     height: 75.5px;
     width: 165px;
+    padding: 10px 10px 10px 25px; 
 }
+.body img{
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 0;
+}
+/* .menu {
+    justify-content: space-evenly;
+    align-items: center;
+} */
+
+
+
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-left: 200px;
+}
+
+
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/* .menu a{
+    color: white;
+    text-decoration: none;
+    
+} */
+
+/* .menu{
+    justify-content: center;
+    align-items:center;
+} */
+
+button{
+    border-radius: 25px;
+    
+}
+.btn-1{
+    background-color: black;
+    color: white;
+    padding:15px;
+}
+
+.btn-2{
+    background-color: red;
+    border:none;
+    color: white;
+    padding:15px;
+}
+
+
+.info {
+    background-color: black;
+    color: white;
+    padding-top: 0;
+    min-height: 90vh;
+}
+
+.h2 {
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 2%;
+    margin: 0;
+}
+
+.h2 h2 {
+    font-size: 36px;
+    font-weight: 400;
+    font-family:'Times New Roman', Times, serif;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.h2 p {
+    font-size: 18px;
+    padding: 15px;
+    color: #cac7c7;
+}
+.h2-f{
+    font-family: georgia, serif;
+    font-weight: bold;
+    font-size: larger;
+    
+}
+
+.boxx {
+    display: flex;
+    background-color: black;
+    color: white;
+    /* padding-top: 3%; */
+    gap: 30px;
+    justify-content: center;
+}
+
+.card {
+    text-align: center;
+}
+
+.box-1,
+.box-2,
+.box-3,
+.box-4 {
+    width: 250px;
+    height: 140px;
+    border-radius: 3px;
+    background-color: white;
+}
+
+.box-1 img,
+.box-2 img,
+.box-3 img,
+.box-4 img {
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+    padding: 5%;
+}
+
+.card button {
+    margin-top: 24px;
+    background-color: black;
+    color: white;
+    border: 1px solid #555;
+    border-radius: 25px;
+    padding: 14px 50px;
+    font-size: 14px;
+}
+
+
+
